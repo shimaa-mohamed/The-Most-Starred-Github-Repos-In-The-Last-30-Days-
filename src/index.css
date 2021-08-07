@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+.li {
+  float: left;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  border-radius: 50%;
+  /* float: left; */
+}
+.username-div {
+  width: 150px;
+  height: auto;
+  background-color: chocolate;
+  text-align: center;
+  border: chocolate;
+  border-radius: 5px;
+  margin: 15px;
+}
+.margin {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: left;
+}
+.pcard {
+  font-size: 17px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.ul-card {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+}
+.mainInfo {
+  background-color: #dddddd;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 1200px;
+  border-radius: 20px;
+  text-align: left;
+  padding-top: 50;
+}
+
+span.borderSpan {
+  border-style: solid;
+  border-width: 3px;
+  padding: 5px;
+  margin-right: 10px;
+  border-color:black;
+}
