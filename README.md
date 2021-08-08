@@ -7,7 +7,8 @@ This project is built using React and it supports many functionalities as:
 _ Repository name  
 _ Repository description  
 _ Number of stars for the repo.  
-_ Number of issues for the repo. \* Username and avatar of the owner.  
+_ Number of issues for the repo.  
+_ Username and avatar of the owner.  
 ◼️ User can keep scrolling and new results should appear (pagination).
 
 ## Installation
