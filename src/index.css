@@ -20,6 +20,7 @@ footer {
 }
 .li {
   float: left;
+  padding: 20px;
 }
 .image {
   width: 150px;
@@ -27,15 +28,6 @@ footer {
   margin: 15px;
   border-radius: 50%;
   /* float: left; */
-}
-.username-div {
-  width: 150px;
-  height: auto;
-  background-color: chocolate;
-  text-align: center;
-  border: chocolate;
-  border-radius: 5px;
-  margin: 15px;
 }
 .margin {
   margin-left: 40px;
@@ -49,7 +41,7 @@ footer {
 .pcard {
   font-size: 17px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .ul-card {
@@ -79,4 +71,9 @@ span.borderSpan {
 .centerItem{
   text-align: center;
 
+}
+.paginationbtn{
+font-weight: bold;}
+.description{
+  width: 800px;
 }
