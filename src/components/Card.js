@@ -1,24 +1,24 @@
-import React, { useState, useEffect } from "react";
-const Card = () => {
+import React from "react";
+const Card = ({repo}) => {
   return (
     <div className="mainInfo">
       <ul className="ul-card">
         <li className="li">
           <img
             className="image"
-            src="https://image.flaticon.com/icons/png/512/147/147144.png"
+            src={repo.owner.avatar_url}
             alt="Avatar"
           ></img>
           <div className="username-div"></div>
         </li>
         <li className="li">
           <div className="margin">
-            <p className="title">Repository name</p>
-            <h5 className="pcard">Repository description</h5>
+            <p className="title">{repo.name}</p>
+            <h5 className="pcard">{repo.description}</h5>
             <span className="borderSpan" >
-              Stars: 118k
+              Stars: {repo.stargazers_count}
             </span>
-            <span className="borderSpan">Issues: 118k</span>
+            <span className="borderSpan">Issues: {repo.open_issues} </span>
             <span>Submitted 30 days ago by tensorflow</span>
           </div>
         </li>

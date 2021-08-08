@@ -63,7 +63,7 @@ footer {
   background-color: #dddddd;
   margin: auto;
   margin-bottom: 20px;
-  width: 1200px;
+  /* width: 1200px; */
   border-radius: 20px;
   text-align: left;
   padding-top: 50;
@@ -75,4 +75,8 @@ span.borderSpan {
   padding: 5px;
   margin-right: 10px;
   border-color:black;
+}
+.centerItem{
+  text-align: center;
+
 }
