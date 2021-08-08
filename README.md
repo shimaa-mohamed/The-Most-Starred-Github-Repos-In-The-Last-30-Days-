@@ -10,7 +10,7 @@ _ Number of stars for the repo.
 _ Number of issues for the repo.  
 _ Username and avatar of the owner.  
 ◼️ User can keep scrolling and new results should appear (pagination).  
-From the uses libraries (axios:Javascript library used to make HTTP requests,moment:JavaScript date library for parsing, validating, manipulating, and formatting dates.)
+From the uses libraries   (axios:Javascript library used to make HTTP requests,  moment:JavaScript date library for parsing, validating, manipulating, and formatting dates.)
 
 ## Installation
 
